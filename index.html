@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Synthesizers 101</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Synthesizers 101
+
+---
+
+# What is a synth?
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/VXa9tXcMhXQ" frameborder="0" allowfullscreen></iframe>
+
+---
+
+# What is a synth?
+* Digital or Analog
+* Multiple Paradigms
+  * Subtractive
+  * Additive
+  * Frequency Modulation
+  * Granular
+
+---
+
+# What is a subtractive synth?
+* Takes a signal from an Oscillator
+* Passes it through a series of components that subtract from the signal
+![Subtractive synthesis signal flow](http://files.csound-tutorial.net/floss_manual/Release03/Cs_FM_03_ScrapBook/2oscsynthflow_001.png)
+---
+
+# Signals
+* Continuous streams of values
+* Digitally represented as an array of N bit values
+* Electronic trickery makes these work
+* Composed of many Sine waves at various phases and velocities at any one point
+
+![Time domain waveform representation](http://www.bitscope.com/software/generator/panel/13.png)
+
+---
+
+# Pitched signals
+* Follow a harmonic structure
+* has a sine wave at the 'fundamental' frequency
+* contains sine waves at various multiples of the fundamental frequency
+
+![Harmonic decomposition of pitched signal](http://www.oocities.org/tokyo/fuji/1159/index5/v010b.png
+)
+
+---
+
+# Oscillators
+* Generate the waveforms
+
+![Waveforms](http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Waveforms.svg/350px-Waveforms.svg.png)
+
+---
+
+# DEMO
+
+---
+
+# Filters
+They 'filter' part of the harmonic content out of the sound.
+* Various types
+  * Low Pass
+  * High Pass
+  * Band Pass
+  * Band Reject
+
+---
+
+# DEMO
+
+---
+
+# Envelope generator
+Controls the volume of the sound over time.
+
+![ADSR diagram](http://www.garnishmusicproduction.com/wp-content/uploads/2010/10/adsr_envelope_in_dance_music_production1.png)
+
+---
+
+# Putting it all together demo
+
+---
+
+# Whoooo Are Huuuuuuuuuugh?
+![Alice in Wonderland Who Are You](http://www.world-wide-art.com/images/Tricia-Buchanan-Benson/Alice-in-Wonderland-Who-Are-You.jpg)
+
+@hughrawlinson
+
+Student of Music Computing at Goldsmiths
+
+Developer of Web at many places
+
+Founding President of Hacksmiths
+
+    </textarea>
+    <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
